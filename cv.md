@@ -29,6 +29,23 @@ Although I don't have experience in Front development, I have a strong believe t
 
 ## Code examples
 
+```
+<fieldset>
+   <legend>Front-end</legend>
+   <label>HTML
+    <input type="checkbox" name="front-end" value="html">
+   </label>
+   <br>
+   <label>CSS
+    <input type="checkbox" name="front-end" value="css">
+   </label>
+   <br>
+   <label>JS
+    <input type="checkbox" name="front-end" value="js">
+   </label>
+  </fieldset>
+```
+
 ************
 
 ## Experience
@@ -37,8 +54,15 @@ Although I don't have experience in Front development, I have a strong believe t
 
 ## Education
 
+* Vitebsk State Medical University
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+
 ************
 
 ## Languages
+
+* English - Intermediate/Upper-intermediate (according to the online [test](www.efset.org))
+
+![score](CV.png)
 
 ************
