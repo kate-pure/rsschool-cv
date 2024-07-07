@@ -20,7 +20,7 @@ html, body {
 	width: 100%;
 	font-size: 100%;
 	line-height: 1.8;
-	font-size: 16px;
+	font-size: 18px;
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 /* --------------------------- */
 
 :root {
-	--background-color:rgb(252, 224, 238);
+	--background-color:rgb(253, 218, 235);
 	--main-color: rgb(255, 0, 106);
 }
 
@@ -70,7 +70,7 @@ body {
 
 .title {
 	margin-top: 15px;
-	font: normal small-caps bold 28px/1 arial;
+	font: normal small-caps bold 40px/1 arial;
 	animation: color-change 5s infinite;
 }
 
@@ -107,7 +107,7 @@ body {
 .left-subtitle {
 	margin: 50px 40px 20px 40px;
 	font-variant: small-caps;
-	font-size: 18px;
+	font-size: 22px;
 	color: rgb(249, 240, 249);
 	background-color: rgb(148, 0, 0);
 	animation: background-change 5s infinite;
@@ -149,18 +149,16 @@ body {
 
 .right-subtitle {
 	margin: 40px 0px 20px 0px;
-	font: small-caps bold 20px/1.2 arial;
+	font: small-caps bold 25px/1.2 arial;
 	border-bottom: 1px solid red;
 	text-shadow: 0.5px 8px 12px #ff28bfc7;
 }
-
-
 
 .list-experience {
 	margin-top: 10px;
 }
 
-.links {
+.link {
 	color: rgb(181, 0, 0);
 }
 
