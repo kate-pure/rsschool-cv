@@ -53,8 +53,8 @@ body {
 }
 
 .left-column {
-	padding: 20px;
 	width: 30%;
+	text-align: center;
 }
 
 .header {
@@ -63,12 +63,12 @@ body {
 	align-items: center;
 }
 
-img {
+.image {
 	width: 200px ;
-	text-align: center;
+	margin: 20px;
 }
 
-h1 {
+.title {
 	font: normal small-caps bold 28px/1 arial;
 	animation: color-change 5s infinite;
 	margin-top: 15px;
@@ -96,78 +96,74 @@ h1 {
 	}
 }
 
-.h2header {
-	text-align: center;
+.main-subtitle {
 	white-space: nowrap;
 	color: rgb(187, 0, 0);
 	font-variant: small-caps;
 	margin-top: 15px;
 }
 
-.h2main {
+.left-subtitle {
 	font-variant: small-caps;
 	font-size: 18px;
 	background-color: rgb(148, 0, 0);
 	color: rgb(249, 240, 249);
 	margin: 50px 40px 20px 40px;
-	text-align: center;
-}
-
-.contact-info {
-	text-align: center;
 }
 
 .contacts {
 	font: normal small-caps bold 18px/1.5 arial;
 }
 
-.skills {
-	text-align: center;
-}
-
 .right-column {
 background-color: rgb(249, 240, 249);
-text-indent: 50px;
-width: 60%;
+margin: 20px;
+width: 70%;
 padding-left: 50px;
+padding-right: 50px;
+line-height: 1.8;
+text-align: center;
 }
 
-.h2-rightcolumn {
+.right-subtitle {
 	border-bottom: 1px solid red;
-	margin-top: 40px;
+	margin: 40px 0px 20px 0px;
 	font: small-caps bold 20px/1.2 arial;
-}
-
-.about {
-	line-height: 1.8;
-	margin-top: 20px;
-}
-
-.experience {
-	line-height: 1.8;
-	margin-top: 20px;
-}
-
-.links {
-	color: rgb(181, 0, 0);
 }
 
 .list-experience {
 	margin-top: 10px;
 }
 
+.links {
+	color: rgb(181, 0, 0);
+}
+
 .education {
 	display: flex;
 	flex-direction: row;
+	text-align: center;
 }
 
-h4 {
+.uni {
+	width: 50%;
+}
+
+.school {
+	width: 50%;
+}
+
+.little-subtitle {
 	font-style: italic;
 	font-weight: bold;
 	margin-top: 20px;
 	text-align: center;
 }
 
-.list-languages {
-	margin-top: 20px;
+/* !.code-container {
+	text-align: center;
+} */
+
+.code {
+	text-align: left;
 }
