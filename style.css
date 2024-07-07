@@ -19,8 +19,8 @@ html, body {
 	height: 100%;
 	width: 100%;
 	font-size: 100%;
-	line-height: 1;
-	font-size: 14px;
+	line-height: 1.5;
+	font-size: 16px;
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -35,3 +35,124 @@ a:hover {text-decoration: none;}
 ul li {list-style: none;}
 img {vertical-align: top;}
 h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
+/* --------------------------- */
+
+:root {
+	--background-color:rgb(252, 224, 238);
+	--main-color: rgb(255, 0, 106);
+}
+
+body {
+	background-color: var(--background-color);
+	color: var(--main-color);
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.container {
+	display: flex;
+}
+
+.left-column {
+	padding: 20px;
+	width: 40%;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+img {
+	width: 200px ;
+	text-align: center;
+}
+
+h1 {
+	font: normal small-caps bold 28px/1 arial;
+	animation: color-change 5s infinite;
+	margin-top: 15px;
+}
+
+@keyframes color-change {
+	0% {
+		color: rgb(189, 0, 0);
+	}
+
+	25%{
+		color: rgb(74, 3, 140);
+	}
+
+	50% {
+		color: rgb(255, 0, 144);
+	}
+
+	75% {
+		color: rgb(151, 63, 0);
+	}
+
+	100% {
+		color: rgb(189, 0, 0);
+	}
+}
+
+.h2header {
+	text-align: center;
+	white-space: nowrap;
+	color: rgb(187, 0, 0);
+	font-variant: small-caps;
+	margin-top: 15px;
+}
+
+.h2main {
+	font-variant: small-caps;
+	font-size: 18px;
+	background-color: rgb(148, 0, 0);
+	color: rgb(249, 240, 249);
+	margin: 20px;
+	text-align: center;
+}
+
+ul {
+	padding-left: 20px;
+}
+
+.contact-info {
+	text-align: center;
+}
+
+.contacts {
+	font: normal small-caps bold 18px/1.5 arial;
+}
+
+.right-column {
+background-color: rgb(249, 240, 249);
+text-indent: 50px;
+width: 60%;
+padding-left: 40px;
+}
+
+.h2-rightcolumn {
+	border-bottom: 1px solid red;
+	margin-left: 50px;
+	margin-top: 20px;
+	font: small-caps bold 20px/1.2 arial;
+	text-indent: 100px;
+}
+
+.about {
+	line-height: 1.8;
+	margin-top: 20px;
+}
+
+.education {
+	display: flex;
+	flex-direction: row;
+}
+
+h4 {
+	font-style: italic;
+	font-weight: bold;
+	margin-top: 20px;
+	text-align: center;
+}
