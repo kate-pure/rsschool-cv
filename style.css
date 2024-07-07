@@ -54,7 +54,7 @@ body {
 
 .left-column {
 	padding: 20px;
-	width: 40%;
+	width: 30%;
 }
 
 .header {
@@ -109,12 +109,8 @@ h1 {
 	font-size: 18px;
 	background-color: rgb(148, 0, 0);
 	color: rgb(249, 240, 249);
-	margin: 20px;
+	margin: 50px 40px 20px 40px;
 	text-align: center;
-}
-
-ul {
-	padding-left: 20px;
 }
 
 .contact-info {
@@ -125,24 +121,39 @@ ul {
 	font: normal small-caps bold 18px/1.5 arial;
 }
 
+.skills {
+	text-align: center;
+}
+
 .right-column {
 background-color: rgb(249, 240, 249);
 text-indent: 50px;
 width: 60%;
-padding-left: 40px;
+padding-left: 50px;
 }
 
 .h2-rightcolumn {
 	border-bottom: 1px solid red;
-	margin-left: 50px;
-	margin-top: 20px;
+	margin-top: 40px;
 	font: small-caps bold 20px/1.2 arial;
-	text-indent: 100px;
 }
 
 .about {
 	line-height: 1.8;
 	margin-top: 20px;
+}
+
+.experience {
+	line-height: 1.8;
+	margin-top: 20px;
+}
+
+.links {
+	color: rgb(181, 0, 0);
+}
+
+.list-experience {
+	margin-top: 10px;
 }
 
 .education {
@@ -155,4 +166,8 @@ h4 {
 	font-weight: bold;
 	margin-top: 20px;
 	text-align: center;
+}
+
+.list-languages {
+	margin-top: 20px;
 }
