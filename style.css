@@ -19,7 +19,7 @@ html, body {
 	height: 100%;
 	width: 100%;
 	font-size: 100%;
-	line-height: 1.5;
+	line-height: 1.8;
 	font-size: 16px;
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
@@ -64,7 +64,7 @@ body {
 }
 
 .image {
-	width: 200px ;
+	width: 300px ;
 	margin: 20px;
 }
 
@@ -101,6 +101,7 @@ body {
 	color: rgb(187, 0, 0);
 	font-variant: small-caps;
 	margin-top: 15px;
+	animation: color-change 5s infinite;
 }
 
 .left-subtitle {
@@ -109,10 +110,11 @@ body {
 	background-color: rgb(148, 0, 0);
 	color: rgb(249, 240, 249);
 	margin: 50px 40px 20px 40px;
+	animation: background-change 5s infinite;
 }
 
-.contacts {
-	font: normal small-caps bold 18px/1.5 arial;
+.highlighting {
+	font: normal small-caps bold 18px/1.8 arial;
 }
 
 .right-column {
@@ -121,7 +123,6 @@ margin: 20px;
 width: 70%;
 padding-left: 50px;
 padding-right: 50px;
-line-height: 1.8;
 text-align: center;
 }
 
@@ -166,4 +167,15 @@ text-align: center;
 
 .code {
 	text-align: left;
+}
+
+.footer {
+	display: flex;
+	/* background-color: rgba(208, 0, 255, 0.093); */
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-item {
+	margin: 10px 50px;
 }
