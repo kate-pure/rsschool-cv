@@ -88,7 +88,7 @@ body {
 	}
 
 	75% {
-		color: rgb(151, 63, 0);
+		color: rgb(255, 166, 0);
 	}
 
 	100% {
@@ -113,6 +113,28 @@ body {
 	animation: background-change 5s infinite;
 }
 
+@keyframes background-change {
+	0% {
+		background-color: rgb(189, 0, 0);
+	}
+
+	25%{
+		background-color: rgb(74, 3, 140);
+	}
+
+	50% {
+		background-color: rgb(255, 0, 144);
+	}
+
+	75% {
+		background-color: rgb(255, 166, 0);
+	}
+
+	100% {
+		background-color: rgb(189, 0, 0);
+	}
+}
+
 .highlighting {
 	font: normal small-caps bold 18px/1.8 arial;
 }
@@ -129,7 +151,10 @@ body {
 	margin: 40px 0px 20px 0px;
 	font: small-caps bold 20px/1.2 arial;
 	border-bottom: 1px solid red;
+	text-shadow: 0.5px 8px 12px #ff28bfc7;
 }
+
+
 
 .list-experience {
 	margin-top: 10px;
@@ -161,7 +186,9 @@ body {
 }
 
 .code {
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	text-align: left;
 }
 
 .footer {
